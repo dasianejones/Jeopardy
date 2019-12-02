@@ -1,7 +1,66 @@
 # project1 
 
+JEOPARDY
 
-PSEUDOCODE
+General Assembly SEI December 9 - Project 1 
+
+. Project:
+
+. Trello Board: 
+
+. GitHub
+
+
+OVERVIEW
+
+* input project overview *
+
+* input picture of app *
+
+
+GAME INSTRUCTIONS:
+
+1)
+
+2)
+
+3)
+
+4)
+
+5)
+
+6)
+
+7)
+
+WIREFRAME
+
+* input picture of wireframe *
+
+
+TECHNOLOGIES USED
+
+. 
+
+.
+
+
+FUTURE DEVELOPMENTS/ IMPROVEMENTS
+
+. 
+
+. 
+
+.
+
+.
+
+
+
+
+
+<!-- PSEUDOCODE
 
 * create pop up that gives users instructions on how to play Jeopardy *
 
@@ -70,4 +129,4 @@ Category tasks:
 8) if player earns less than 2000 points, player loses the game.
 
     . create a function that will respond with "winner" if user total score is greater than or equal to 2000 points
-    . create a function that will respond with "loser" if user total score is under 2000 points
+    . create a function that will respond with "loser" if user total score is under 2000 points -->
