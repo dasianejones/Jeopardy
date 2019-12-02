@@ -1,8 +1,16 @@
-# project1 pseudocode
+# project1 
 
-1) single player mode
 
-2) pick a category and its associated point value
+PSEUDOCODE
+
+* create pop up that gives users instructions on how to play Jeopardy *
+
+
+1) create a single player mode
+
+2) create categories that align with chosen theme
+
+    . pick a category and its associated point value
 
 Categories 
 
