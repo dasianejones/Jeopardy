@@ -4,6 +4,16 @@
 
 2) pick a category and its associated point value
 
+Categories:
+
+     . Category needs a few clickable elements beneath them that are worth a variety of points.
+- These elements need to be:
+
+     . Clickable
+     . Store a value (the points it’s worth)
+     . Disappear or disable themselves after they’ve been selected.
+      
+
 3) answer question in alotted time period
 
     . when category is clicked, 10 second timer begins
@@ -20,15 +30,6 @@
     . startTimer() function to start the countdown.
     . if/else statement you check if an answer was chosen before time runs out.
 
-  On to Categories
-
-     . Category needs a few clickable elements beneath them that are worth a variety of points.
-- These elements need to be:
-
-     . Clickable
-     . Store a value (the points it’s worth)
-     . Disappear or disable themselves after they’ve been selected.
-      
 
 4) If correct, say "Correct" and award associated points
 
