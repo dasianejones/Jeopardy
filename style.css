@@ -1,0 +1,91 @@
+.grid-container {
+    height: 90vh;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .cell {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+  }
+
+  .cell-1 {
+    background: #060CE9;
+  }
+
+  .cell-2 {
+    background: #060CE9;
+  }
+  .cell-3 {
+    background: #060CE9;
+  }
+  .cell-4 {
+    background: #060CE9;
+  }
+  .cell-5 {
+    background: #060CE9;
+  }
+  .cell-6 {
+    background: #060CE9;
+  }
+  .cell-7 {
+    background: #060CE9;
+  }
+  .cell-8 {
+    background: #060CE9;
+  }
+  .cell-9 {
+    background: #060CE9;
+  }
+  .cell-10 {
+    background: #060CE9;
+  }
+  .cell-11 {
+    background: #060CE9;
+  }
+  .cell-12 {
+    background: #060CE9;
+  }
+  .cell-13 {
+    background: #060CE9;
+  }
+  .cell-14 {
+    background: #060CE9;
+  }
+  .cell-15 {
+    background: #060CE9;
+  }
+  .cell-16 {
+    background: #060CE9;
+  }
+  .cell-17 {
+    background: #060CE9;
+  }
+  .cell-18 {
+    background: #060CE9;
+  }
+  .cell-19 {
+    background: #060CE9;
+  }
+  .cell-20 {
+    background: #060CE9;
+  }
+  .cell-21 {
+    background: #060CE9;
+  }
+  .cell-22 {
+    background: #060CE9;
+  }
+  .cell-23 {
+    background: #060CE9;
+  }
+  .cell-24 {
+    background: #060CE9;
+  }
+  .cell-25 {
+    background: #060CE9;
+  }
