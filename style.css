@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px 10px; 
   }
 
   .cell {
@@ -87,5 +88,11 @@
     background: #060CE9;
   }
   .cell-25 {
+    background: #060CE9;
+  }
+  .cell-26 {
+    background: #060CE9;
+  }
+  .cell-27 {
     background: #060CE9;
   }
