@@ -18,6 +18,10 @@
 
   }
 
+  .hidden {
+      display: none;
+  }
+
   .cell-1 {
     grid-column: 1/6; 
     
