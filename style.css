@@ -18,6 +18,16 @@
 
   }
 
+  .front-cell {
+    color:yellow;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+    background: #060CE9;
+  
+
+  }
+
   .hidden {
       display: none;
   }
