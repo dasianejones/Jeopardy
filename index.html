@@ -20,6 +20,42 @@
   </head>
 
   <body>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="questionModal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Question:</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Submit Answer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="grid-container">
       <div class="cell cell-1">Jeopardy</div>
       <div class="cell cell-2">December Holidays</div>
@@ -28,55 +64,31 @@
       <div class="cell cell-5">"We're Decking What?"</div>
       <div class="cell cell-6">Family Carols</div>
 
-      <div class="question cell cell-7">200</div>
-
-      <div class="question cell cell-8">200</div>
-
-      <div class="question cell cell-9">200</div>
-
-      <div class="question cell cell-10">200</div>
-
-      <div class="question cell cell-11">200</div>
-
-      <div class="question cell cell-12">400</div>
-
-      <div class="question cell cell-13">400</div>
-
-      <div class="question cell cell-14">400</div>
-
-      <div class="question cell cell-15">400</div>
-
-      <div class="question cell cell-16">400</div>
-
-      <div class="question cell cell-17">600</div>
-
-      <div class="question cell cell-18">600</div>
-
-      <div class="question cell cell-19">600</div>
-
-      <div class="question cell cell-20">600</div>
-
-      <div class="question cell cell-21">600</div>
-
-      <div class="question cell cell-22">800</div>
-
-      <div class="question cell cell-23">800</div>
-
-      <div class="question cell cell-24">800</div>
-
-      <div class="question cell cell-25">800</div>
-
-      <div class="question cell cell-26">800</div>
-
-      <div class="question cell cell-27">1000</div>
-
-      <div class="question cell cell-28">1000</div>
-
-      <div class="question cell cell-29">1000</div>
-
-      <div class="question cell cell-30">1000</div>
-
-      <div class="question cell cell-31">1000</div>
+      <div class="question cell cell-7" data-num="0">200</div>
+      <div class="question cell cell-8" data-num="5">200</div>
+      <div class="question cell cell-9" data-num="10">200</div>
+      <div class="question cell cell-10" data-num="15">200</div>
+      <div class="question cell cell-11" data-num="20">200</div>
+      <div class="question cell cell-12" data-num="1">400</div>
+      <div class="question cell cell-13" data-num="6">400</div>
+      <div class="question cell cell-14" data-num="11">400</div>
+      <div class="question cell cell-15" data-num="16">400</div>
+      <div class="question cell cell-16" data-num="21">400</div>
+      <div class="question cell cell-17" data-num="2">600</div>
+      <div class="question cell cell-18" data-num="7">600</div>
+      <div class="question cell cell-19" data-num="12">600</div>
+      <div class="question cell cell-20" data-num="17">600</div>
+      <div class="question cell cell-21" data-num="22">600</div>
+      <div class="question cell cell-22" data-num="3">800</div>
+      <div class="question cell cell-23" data-num="8">800</div>
+      <div class="question cell cell-24" data-num="13">800</div>
+      <div class="question cell cell-25" data-num="18">800</div>
+      <div class="question cell cell-26" data-num="23">800</div>
+      <div class="question cell cell-27" data-num="4">1000</div>
+      <div class="question cell cell-28" data-num="9">1000</div>
+      <div class="question cell cell-29" data-num="14">1000</div>
+      <div class="question cell cell-30" data-num="19">1000</div>
+      <div class="question cell cell-31" data-num="24">1000</div>
 
       <div class="cell cell-32">"add several boxes here"</div>
     </div>
