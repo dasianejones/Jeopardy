@@ -61,276 +61,103 @@ let gameQuestions = [{
       wrong: ["Solitaire", "Tetris", "Monopoly"]
 
     },
-    questionText: "",
+    questionText: "This hue often makes up most of the trees that are adorned for the holiday season.",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "Green",
+      wrong: ["Blue", "Orange", "Purple"]
 
     },
-    questionText: "",
+    questionText: "This color has been said to represent that of Holly berries, which is believed to represent the blood of Jesus when he died on the cross.",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "Red",
+      wrong: ["White", "Black", "Yellow"]
 
     },
-    questionText: "",
+    questionText: "This shade was one of the presents brought to the baby Jesus by one of the wise men and traditionally it's the color used to show the star that the wise men followed.",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "Gold",
+      wrong: ["Silver", "Blue", "Magenta"]
 
     },
-    questionText: "",
+    questionText: "This color is often associated with purity and peace in western cultures.",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "White",
+      wrong: ["Red", "Green", "Purple"]
 
     },
-    questionText: "",
+    questionText: "This cerulean tone is often associated with Mary, the mother of Jesus.",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "Blue",
+      wrong: ["Red", "Orange", "Gold"]
 
     },
-    questionText: "",
+    questionText: "This ‘modern' Christmas staple is thought to have originated in 16th century Germany, where small evergreen plants were decorated with the likes of candles, apples, nuts, and berries as “Paradise trees” in church plays.",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "Tree",
+      wrong: ["Ornaments", "Star", "Snow"]
 
     },
-    questionText: "",
+    questionText: "This Kwanzaa staple symbolizes the historical and traditional foundation for people to stand on and build their lives.",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "Mkeka",
+      wrong: ["Kinara", "Stool", "Muhindi"]
 
     },
-    questionText: "",
+    questionText: "This Hannukah centerpiece holds nine candles that families light during the celebration: one candle on the first day, two on the second (and so on) after sundown during the eight days of Hanukkah, while reciting prayers and singing songs.",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "Menorah",
+      wrong: ["Mazao", "Zawadi", "Kinara"]
 
     },
-    questionText: "",
+    questionText: "This Christmas decoration comes from the word “writhen” that was an old English word meaning “to writhe” or “to twist.",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "Wreath",
+      wrong: ["Stockings", "Snow Globe", "Garland"]
 
     },
-    questionText: "",
+    questionText: "Noisemaking and this unforgettable type of show on New Years Eve is believed to have originated in ancient times, when noise and fire were thought to dispel evil spirits and bring good luck.",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "Fireworks",
+      wrong: ["Race Car", "Laser Beams", "Ice Skating"]
 
     },
-    questionText: "",
+    questionText: "This holiday tune reminds us all to have a “very merry Christmas” and a “jolly good night”.",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "We Wish You A Merry Christmas",
+      wrong: ["O’ Holy Night", "Carol of the Bells", "Jingle Bells"]
 
     },
-    questionText: "",
+    questionText: "This famous carol recounted how someones “one true love” gave them a special gift for 12 days in a row.",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "12 Days of Christmas",
+      wrong: ["Silent Night", "Joy to the World", "The First Noel"]
 
     },
-    questionText: "",
+    questionText: "Ding, dong, ding, dong That is their song With joyful ring All caroling One seems to hear Words of good cheer From ev’rywhere Filling the air",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "Carol of the Bells",
+      wrong: ["Deck the Halls", "Have Yourself a Merry Little Christmas", "Jingle Bells"]
 
     },
-    questionText: "",
+    questionText: "This nativity anthem describes the night Christian savior, Jesus Christ, was born",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "O’ Holy Night",
+      wrong: ["Silent Night", "We Wish You a Merry Christmas", "Frosty the Snowman"]
 
     },
-    questionText: "",
+    questionText: "This ballad is often sang to make sure children are on their best behavior in anticipation of a special guest on Christmas Eve.",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "Santa Claus is Coming to Town",
+      wrong: ["The First Noel", "12 Days of Christmas", "Joy to the World"]
 
     },
-    questionText: "",
+    questionText: "What is the most highly celebrated holiday in the world?",
      answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
+      correct: "New Years Eve",
+      wrong: ["Easter", "Christmas", "Independence Day"]
 
-    },
-    questionText: "",
-     answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
-
-    },
-    questionText: "",
-     answerChoices: {
-      correct: "",
-      wrong: ["", "", ""]
-
+   
     },
     
     }];
   
-
-
-
-  
-
-
- 
-
-Top Sellers
-5. “”
-
-	A. Solitaire
-	B. Tetris
-	C. Monopoly
-	D. Rubiks Cube
-
-
-Festive Colors
-
-1. “This hue often makes up most of the trees that are adorned for the holiday season.”
-
-	A. Green
-	B. Blue
-	C. Orange
-	D. Purple
-
-
-2. “This color has been said to represent that of Holly berries, which is believed to represent the blood of Jesus when he died on the cross.”
-
-	A. White
-	B. Red
-	C. Black
-	D. Yellow
-
-
-3. “This shade was one of the presents brought to the baby Jesus by one of the wise men and traditionally it's the color used to show the star that the wise men followed.”
-
-	A. Silver
-	B. Blue
-	C. Gold
-	D. Magenta
-
-
-  4. “This color is often associated with purity and peace in western cultures.”
-
-	A. White
-	B. Red
-	C. Green
-	D. Purple
-
- 
-5. “This cerulean tone is often associated with Mary, the mother of Jesus.”
-
-	A. Red
-	B. Orange
-	C. Gold
-	D. Blue
-
-
-
-“We're Decking What?"
-
-1. “This ‘modern' Christmas staple is thought to have originated in 16th century Germany, where small evergreen trees were decorated with the likes of candles, apples, nuts, and berries as “Paradise trees” in church plays.”
-
-	A. Ornaments
-	B. Tree
-	C. Star
-	D. Snow
-
-
-2. “This Kwanzaa staple symbolizes the historical and traditional foundation for people to stand on and build their lives.”
-
-	A. Kinara
-	B. Mkeka
-	C. Stool
-	D. Muhindi
-
-
-3. “This Hannukah centerpiece holds nine candles that families light during the celebration: one candle on the first day, two on the second (and so on) after sundown during the eight days of Hanukkah, while reciting prayers and singing songs.”
-
-	A. Mazao
-	B. Zawadi
-	C. Menorah
-	D. Kinara
-
-
-4. “This Christmas decoration comes from the word “writhen” that was an old English word meaning “to writhe” or “to twist.”
-
-	A. Stockings
-	B. Snow Globe
-	C. Wreath
-	D. Garland
-
-
-5. “Noisemaking and this unforgettable type of show on New Years Eve is believed to have originated in ancient times, when noise and fire were thought to dispel evil spirits and bring good luck.”
-
-	A. Fireworks
-	B. Race Car
-	C. Laser Beam
-	D. Ice Skating
-
-
-
-
- Family Carols
-
-1. “This holiday tune reminds us all to have a “very merry Christmas” and a “jolly good night”.” 
-
-	A. O’ Holy Night
-	B. Jingle Bells
-	C. Carol of the Bells
-	D. We Wish You A Merry Christmas
-
-
-2. “This famous carol recounted how someones “one true love” gave them a special gift for 12 days in a row.”
-
-	A. 12 Days of Christmas
-	B. The First Noel
-	C. Silent Night
-	D. Joy to the World
-
-
-3. “Ding, dong, ding, dong
-	That is their song
-	With joyful ring
-	All caroling
-	One seems to hear
-	Words of good cheer
-	From ev’rywhere
-	Filling the air”
-
-	A. Deck the Halls
-	B. Have Yourself a Merry Little Christmas
-	C. Carol of the Bells
-	D. Jingle Bells
-
-
-4. “This nativity anthem describes the night Christian savior, Jesus Christ, was born”
-
-	A. Silent Night
-	B. We Wish You a Merry Christmas
-	C. Frosty the Snowman
-	D. O’ Holy Night
-
-
-5. “This ballad is often sang to make sure children are on their best behavior in anticipation of a special guest on Christmas Eve.”
-
-	A.  The First Noel
-	B. Santa Claus is Coming to Town
-	C. 12 Days of Christmas
-	D. Joy to the World
-
-
-Bonus Round
-
-What is the most highly celebrated holiday in the world?
-
-	A. New Years Eve
-	B. Easter
-	C. Christmas
-	D. Independence Day
-
