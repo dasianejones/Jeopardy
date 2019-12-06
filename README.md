@@ -1,22 +1,20 @@
-# project1 
+# project1
 
 JEOPARDY
 
-General Assembly SEI December 9 - Project 1 
+General Assembly SEI December 9 - Project 1
 
-. Project:
+[Deployed Game](https://mystifying-jepsen-475625.netlify.com/)
 
-. Trello Board: 
+[Trello Board](https://trello.com/b/mDQRZbof/project-1-board)
 
-. GitHub
-
+[GitHub](https://github.com/dasianejones/Jeopardy)
 
 OVERVIEW
 
-* input project overview *
+- input project overview \*
 
-* input picture of app *
-
+- input picture of app \*
 
 GAME INSTRUCTIONS:
 
@@ -36,29 +34,23 @@ GAME INSTRUCTIONS:
 
 WIREFRAME
 
-* input picture of wireframe *
-
+![Wireframe](./IMG-2603.jpg)
 
 TECHNOLOGIES USED
 
-. 
-
 .
 
+.
 
 FUTURE DEVELOPMENTS/ IMPROVEMENTS
 
-. 
-
-. 
-
 .
 
 .
 
+.
 
-
-
+.
 
 <!-- PSEUDOCODE
 
@@ -71,7 +63,7 @@ FUTURE DEVELOPMENTS/ IMPROVEMENTS
 
     . pick a category and its associated point value
 
-Categories 
+Categories
 
      . Category needs a few clickable elements beneath them that are worth a variety of points.
 
@@ -85,7 +77,7 @@ Category tasks:
      . Be clickable
      . Store the value of the selected element.
      . Take that value and add it to the player points if the correct answer was selected.
-      
+
 
 3) answer question in alotted time period
 
@@ -93,10 +85,10 @@ Category tasks:
     . if question is answered before 10 second timer ends, points are awarded
     . if question is not answered before 10 second timer ends, no points are awarded
 
-- Timer needs to do 3 things 
+- Timer needs to do 3 things
 
     . Start.
-    . Countdown 
+    . Countdown
     . Check if the correct answer was chosen, and if not display something.
 
 - Timer task:
