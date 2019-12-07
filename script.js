@@ -299,6 +299,8 @@ let currentQuestion;
 
 let totalScore = 0;
 
+let questionsAnswered = 0;
+
 // Using jQuery `onClick` function to define what happens when a question button is clicked.
 $(".question").click(function() {
   let questionButton = $(this); // Select the clicked element.
@@ -334,31 +336,40 @@ showAnswerChoices = question => {
 $(".submitAnswer").click(function() {
   let selected = $(".modal-body input:checked").val();
   console.log(selected);
+
+  //Check if submitted answer is correct.
   if (selected === currentQuestion.answerChoices.correct) {
     console.log("correct");
     playCorrectBuzzer();
+    pauseMusic();
     totalScore = totalScore + currentQuestion.awardPointAmount;
     console.log("New score: " + totalScore);
-    if (totalScore >= 5000) {
-      debugger;
-      eraseAnswers();
-      loadModal(25);
-      playMusic();
-      playCorrectBuzzer();
-      return;
-    }
   } else {
     console.log("incorrect");
     playIncorrectBuzzer();
+    pauseMusic();
     totalScore = totalScore - currentQuestion.awardPointAmount;
     console.log("New score: " + totalScore);
   }
+  questionsAnswered++; //Count the question as answered.
+
+  if (totalScore >= 5000 || questionsAnswered === 25) {
+    eraseAnswers();
+    bonusQuestion();
+    return;
+  }
+
+  if (totalScore >= 5000) {
+    alert("Winner!");
+  } else if (questionsAnswered === 26 && totalScore >= 5000) {
+    alert("WINNER!!!");
+  } else if (questionsAnswered === 26 && totalScore < 5000) {
+    alert("LOSER!! GAME OVER!");
+  }
 
   $(".playerScore").html(`Score: ${totalScore}`);
-
   eraseAnswers();
   hideModal();
-  pauseMusic();
 });
 
 eraseAnswers = () => {
@@ -367,6 +378,13 @@ eraseAnswers = () => {
 
 hideModal = () => {
   $("#questionModal").modal("hide");
+};
+
+bonusQuestion = () => {
+  currentQuestion = gameQuestions[25];
+  loadModal(25);
+  playMusic();
+  pauseMusic();
 };
 
 let music = document.getElementById("music");

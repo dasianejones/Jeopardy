@@ -28,6 +28,8 @@ body {
 }
 .playerScore {
   float: right;
+  font-family: "Mountains of Christmas";
+  font-size: 80px;
 }
 .title {
   padding-left: 105px;
@@ -36,11 +38,13 @@ body {
 }
 
 .playerTag {
-  margin: left;
+  margin-right: 1200px;
 }
 
 .happyHolidays {
   text-align: center;
+  font-family: "Mountains of Christmas";
+  font-size: 120px;
 }
 
 .cell-1 {
