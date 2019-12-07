@@ -1,5 +1,11 @@
+body {
+  background: #ff0099;
+  background: -webkit-linear-gradient(to right, #493240, #ff0099);
+  background: linear-gradient(to right, #493240, #ff0099);
+}
+
 .grid-container {
-  height: 90vh;
+  height: 60vh;
   margin: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -25,20 +31,41 @@
 }
 .title {
   padding-left: 105px;
+  font-family: "Mountains of Christmas";
+  font-size: 200px;
 }
+
+.playerTag {
+  margin: left;
+}
+
+.happyHolidays {
+  text-align: center;
+}
+
 .cell-1 {
   grid-column: 1/6;
 }
 
 .cell-2 {
+  font-family: "Mountains of Christmas";
+  font-size: 80px;
 }
 .cell-3 {
+  font-family: "Mountains of Christmas";
+  font-size: 80px;
 }
 .cell-4 {
+  font-family: "Mountains of Christmas";
+  font-size: 80px;
 }
 .cell-5 {
+  font-family: "Mountains of Christmas";
+  font-size: 80px;
 }
 .cell-6 {
+  font-family: "Mountains of Christmas";
+  font-size: 80px;
 }
 .cell-7 {
 }

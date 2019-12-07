@@ -344,6 +344,7 @@ $(".submitAnswer").click(function() {
       eraseAnswers();
       loadModal(25);
       playMusic();
+      playCorrectBuzzer();
       return;
     }
   } else {

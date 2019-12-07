@@ -13,6 +13,12 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Mountains of Christmas"
+      rel="stylesheet"
+    />
+
     <!-- Background Music -->
     <audio id="music" controls>
       <source src="timerMusic.mp3" type="audio/mpeg" />
@@ -27,9 +33,9 @@
     </audio>
 
     <audio id="correctBuzzerSound" controls>
-        <source src="rightanswer.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio> 
+      <source src="rightanswer.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
 
     <link rel="stylesheet" href="style.css" />
 
@@ -110,7 +116,10 @@
       <div class="question cell cell-31" data-num="24">1000</div>
 
       <div class="cell cell-32">
-        <span class="happyHolidays">Happy Holidays</span>
+        <!-- <span class="happyHolidays">Player Tag</span> -->
+        <form action="playerName">
+          Player Tag: <input type="text" name="playerTag" value="" /><br />
+        </form>
         <span class="happyHolidays">Happy Holidays</span>
       </div>
     </div>
