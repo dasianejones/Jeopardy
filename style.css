@@ -20,7 +20,12 @@
   background: white;
   color: white;
 }
-
+.playerScore {
+  float: right;
+}
+.title {
+  padding-left: 105px;
+}
 .cell-1 {
   grid-column: 1/6;
 }

@@ -13,6 +13,23 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <!-- Background Music -->
+    <audio id="music" controls>
+      <source src="timerMusic.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Buzzer Sound -->
+
+    <audio id="incorrectBuzzerSound" controls>
+      <source src="times-up.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio id="correctBuzzerSound" controls>
+        <source src="rightanswer.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio> 
 
     <link rel="stylesheet" href="style.css" />
 
@@ -47,14 +64,19 @@
           <div class="modal-footer">
             <!-- Modal Footer -->
             <!-- This button came from Bootstrap's example. Just changed the text to say Submit Answer -->
-            <button type="button" class="btn btn-primary">Submit Answer</button>
+            <button type="button" class="btn btn-primary submitAnswer">
+              Submit Answer
+            </button>
           </div>
         </div>
       </div>
     </div>
 
     <div class="grid-container">
-      <div class="cell cell-1">Jeopardy</div>
+      <div class="cell cell-1">
+        <span class="title">Jeopardy</span>
+        <span class="playerScore">Score:</span>
+      </div>
       <div class="cell cell-2">December Holidays</div>
       <div class="cell cell-3">Top Sellers</div>
       <div class="cell cell-4">Festive Colors</div>
@@ -87,7 +109,10 @@
       <div class="question cell cell-30" data-num="19">1000</div>
       <div class="question cell cell-31" data-num="24">1000</div>
 
-      <div class="cell cell-32">"add several boxes here"</div>
+      <div class="cell cell-32">
+        <span class="happyHolidays">Happy Holidays</span>
+        <span class="happyHolidays">Happy Holidays</span>
+      </div>
     </div>
 
     <script
