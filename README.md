@@ -12,25 +12,23 @@ General Assembly SEI December 9 - Project 1
 
 OVERVIEW
 
-- input project overview \*
+Objective of this project was to use HTML, CSS, and JavaScript skills to create a functioning game that could be played via deployed website. I created my own rendition of Jeopardy based on what I believed to be a "Holiday Edition" of the show.
 
 - input picture of app \*
 
 GAME INSTRUCTIONS:
 
-1)
+Play individually
 
-2)
+Pick a category and a point value.
 
-3)
+Click on the chosen box for the question.
 
-4)
+User gives answer via multiple choice selection before clicking again.
 
-5)
+If the user is correct, they are awarded the point value of the question. (Can be seen via the “Score” button located at the top of the main board)
 
-6)
-
-7)
+Continue until all questions have been answered. The team with the most points wins.
 
 WIREFRAME
 
@@ -38,19 +36,25 @@ WIREFRAME
 
 TECHNOLOGIES USED
 
-.
+. HTML
 
-.
+. Javascript
+
+. Jquery
+
+. Bootstrap
 
 FUTURE DEVELOPMENTS/ IMPROVEMENTS
 
-.
+. Make game multiplayer
 
-.
+. Add interactive background
 
-.
+. Fix appending issue
 
-.
+. Fix when bonus question comes on
+
+. Create memory for top scores to be saved
 
 <!-- PSEUDOCODE
 
