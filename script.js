@@ -367,3 +367,10 @@ eraseAnswers = () => {
 hideModal = () => {
   $("#questionModal").modal("hide");
 };
+
+let music = document.getElementById("music");
+
+// assign incorrect buzzer id.
+let incorrectBuzzer = document.getElementById("incorrectBuzzerSound");
+
+let correctBuzzer = document.getElementById("correctBuzzerSound");
