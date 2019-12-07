@@ -295,13 +295,33 @@ let gameQuestions = [
   }
 ];
 
+// Using jQuery `onClick` function to define what happens when a question button is clicked.
 $(".question").click(function() {
-  let questionButton = $(this);
-  let questionNumber = questionButton[0].dataset.num;
-  console.log(gameQuestions[questionNumber].questionText);
-  loadModal(questionNumber);
+  let questionButton = $(this); // Select the clicked element.
+  let dataNum = questionButton[0].dataset.num; //Assign the data-num from the html to a variable. This will be used to specify the index in the gameQuestion array.
+  console.log(gameQuestions[dataNum].questionText); //Logging for testing.
+
+  loadModal(dataNum); //Call the loadModal function and pass in the selected questionNumber
+
+  questionButton.addClass("hidden disabled"); // After everything, disable and hide this questionButton so that it can't be seen.
 });
 
-loadModal = questionNumber => {
-  $("#questionModal").modal("show");
+// Function to open the modal and display the question.
+loadModal = dataNum => {
+  $("#questionModal").modal("show"); //Select the modal by its class and "show" it.
+  $(".modal-title").text(gameQuestions[dataNum].questionText); //Select the modal title area by its class, and change the text to display the question text, using the dataNum variable as the index for then gameQuestions array.
+
+  renderQuestionOptions(gameQuestions[dataNum]); //Pass in the current question to the renderQuestionOptions function.
+};
+
+renderQuestionOptions = question => {
+  let answerChoices = question.answerChoices.options; //set the question answer choices to a variable
+  console.log(answerChoices); //log the array
+
+  //for each loop throug each answer choice and append an html element with the answer text.
+  answerChoices.forEach(choice => {
+    $(".modal-body").append(
+      `<input type='radio' value='${choice}'>${choice}</input>`
+    );
+  });
 };
