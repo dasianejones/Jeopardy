@@ -352,3 +352,18 @@ $(".submitAnswer").click(function() {
     totalScore = totalScore - currentQuestion.awardPointAmount;
     console.log("New score: " + totalScore);
   }
+
+  $(".playerScore").html(`Score: ${totalScore}`);
+
+  eraseAnswers();
+  hideModal();
+  pauseMusic();
+});
+
+eraseAnswers = () => {
+  $(".modal-body").html("");
+};
+
+hideModal = () => {
+  $("#questionModal").modal("hide");
+};
