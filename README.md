@@ -14,6 +14,8 @@ OVERVIEW
 
 Objective of this project was to use HTML, CSS, and JavaScript skills to create a functioning game that could be played via deployed website. I created my own rendition of Jeopardy based on what I believed to be a "Holiday Edition" of the show.
 
+![appPicture](appPicture.png)
+
 GAME INSTRUCTIONS:
 
 1. Play individually
