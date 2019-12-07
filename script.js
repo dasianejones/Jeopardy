@@ -382,3 +382,11 @@ playCorrectBuzzer = () => {
 playIncorrectBuzzer = () => {
   incorrectBuzzer.play();
 };
+
+playMusic = () => {
+  music.play();
+};
+
+pauseMusic = () => {
+  music.pause();
+};
