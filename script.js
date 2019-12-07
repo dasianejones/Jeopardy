@@ -374,3 +374,11 @@ let music = document.getElementById("music");
 let incorrectBuzzer = document.getElementById("incorrectBuzzerSound");
 
 let correctBuzzer = document.getElementById("correctBuzzerSound");
+
+playCorrectBuzzer = () => {
+  correctBuzzer.play();
+};
+
+playIncorrectBuzzer = () => {
+  incorrectBuzzer.play();
+};
