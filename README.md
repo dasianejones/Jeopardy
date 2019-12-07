@@ -18,17 +18,17 @@ Objective of this project was to use HTML, CSS, and JavaScript skills to create 
 
 GAME INSTRUCTIONS:
 
-Play individually
+1. Play individually
 
-Pick a category and a point value.
+2. Pick a category and a point value.
 
-Click on the chosen box for the question.
+3. Click on the chosen box for the question.
 
-User gives answer via multiple choice selection before clicking again.
+4. User gives answer via multiple choice selection before clicking again.
 
-If the user is correct, they are awarded the point value of the question. (Can be seen via the “Score” button located at the top of the main board)
+5. If the user is correct, they are awarded the point value of the question. (Can be seen via the “Score” button located at the top of the main board)
 
-Continue until all questions have been answered. The team with the most points wins.
+6. Continue until all questions have been answered. The team with the most points wins.
 
 WIREFRAME
 
