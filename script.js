@@ -359,9 +359,7 @@ $(".submitAnswer").click(function() {
     return;
   }
 
-  if (totalScore >= 5000) {
-    alert("Winner!");
-  } else if (questionsAnswered === 26 && totalScore >= 5000) {
+  if (questionsAnswered === 26 && totalScore >= 5000) {
     alert("WINNER!!!");
   } else if (questionsAnswered === 26 && totalScore < 5000) {
     alert("LOSER!! GAME OVER!");
