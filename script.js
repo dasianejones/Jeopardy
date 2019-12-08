@@ -353,10 +353,14 @@ $(".submitAnswer").click(function() {
   }
   questionsAnswered++; //Count the question as answered.
 
-  if (totalScore >= 5000 && questionsAnswered === 25) {
+  if (totalScore >= 5000 || questionsAnswered === 25) {
     eraseAnswers();
     bonusQuestion();
     return;
+  }
+
+  if (totalScore >= 5000) {
+    alert("Winner!");
   } else if (questionsAnswered === 26 && totalScore >= 5000) {
     alert("WINNER!!!");
   } else if (questionsAnswered === 26 && totalScore < 5000) {
@@ -380,7 +384,6 @@ bonusQuestion = () => {
   currentQuestion = gameQuestions[25];
   loadModal(25);
   playMusic();
-  pauseMusic();
 };
 
 let music = document.getElementById("music");
