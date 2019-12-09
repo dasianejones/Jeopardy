@@ -354,7 +354,7 @@ $(".submitAnswer").click(function() {
   questionsAnswered++; //Count the question as answered.
 
   if (totalScore >= 5000 && questionsAnswered === 25) {
-    alert("Bonus Round!");
+    alert("You've Unlocked a Bonus Round!");
     eraseAnswers();
     bonusQuestion();
     return;
@@ -362,6 +362,7 @@ $(".submitAnswer").click(function() {
 
   if (questionsAnswered === 26 && totalScore >= 5000) {
     alert("WINNER!!! & YOU ROCKED THAT BONUS QUESTION!!");
+    alert("Game Over!");
   } else if (questionsAnswered === 26 && totalScore < 5000) {
     alert("LOSER!! GAME OVER!");
   }
