@@ -301,30 +301,38 @@ let totalScore = 0;
 
 let questionsAnswered = 0;
 
-// Using jQuery `onClick` function to define what happens when a question button is clicked.
+// Use jQuery `onClick` function to define what happens when a question button is clicked.
 $(".question").click(function() {
-  let questionButton = $(this); // Select the clicked element.
-  let dataNum = questionButton[0].dataset.num; //Assign the data-num from the html to a variable. This will be used to specify the index in the gameQuestion array.
+  // Select the clicked element.
+  let questionButton = $(this);
+  //Assign the data-num from the html to a variable.
+  //This will be used to specify the index in the gameQuestion array.
+  let dataNum = questionButton[0].dataset.num;
   console.log(gameQuestions[dataNum].questionText); //Logging for testing.
   currentQuestion = gameQuestions[dataNum];
-  loadModal(dataNum); //Call the loadModal function and pass in the selected questionNumber
+  //Call the loadModal function and pass in the selected questionNumber
+  loadModal(dataNum);
 
-  questionButton.addClass("hidden disabled"); // After everything, disable and hide this questionButton so that it can't be seen.
+  // After everything, disable and hide this questionButton so that it can't be seen.
+  questionButton.addClass("hidden disabled");
 });
 
 // Function to open the modal and display the question.
 loadModal = dataNum => {
   $("#questionModal").modal("show"); //Select the modal by its class and "show" it.
-  $(".modal-title").text(gameQuestions[dataNum].questionText); //Select the modal title area by its class, and change the text to display the question text, using the dataNum variable as the index for then gameQuestions array.
+  //Select the modal title area by its class, and change the text to display the question text,
+  //Use the dataNum variable as the index for the gameQuestions array.
+  $(".modal-title").text(gameQuestions[dataNum].questionText);
 
-  showAnswerChoices(gameQuestions[dataNum]); //Pass in the current question to the showAnswerChoices function.
+  //Pass in the current question to the showAnswerChoices function.
+  showAnswerChoices(gameQuestions[dataNum]);
 };
 
 showAnswerChoices = question => {
   let answerChoices = question.answerChoices.options; //set the question answer choices to a variable
   console.log(answerChoices); //log the array
 
-  //for each loop throug each answer choice and append an html element with the answer text.
+  //for each loop through each answer choice and append an html element with the answer text.
   answerChoices.forEach(choice => {
     $(".modal-body").append(
       `<input class="answerChoice" type='radio' name='answerChoice' value='${choice}'> ${choice} </input>`
@@ -332,7 +340,8 @@ showAnswerChoices = question => {
   });
 };
 
-// Write an onClick function that listens on the button with the "submitAnswer" class and selects the checked option.
+//Write an onClick function that listens on the button with the "submitAnswer" class
+//and selects the checked option.
 $(".submitAnswer").click(function() {
   let selected = $(".modal-body input:checked").val();
   console.log(selected);
