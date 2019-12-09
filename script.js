@@ -363,7 +363,7 @@ $(".submitAnswer").click(function() {
   if (questionsAnswered === 26 && totalScore >= 5000) {
     alert("WINNER!!! & YOU ROCKED THAT BONUS QUESTION!!");
     alert("Game Over!");
-  } else if (questionsAnswered === 26 && totalScore < 5000) {
+  } else if (questionsAnswered === 25 && totalScore < 5000) {
     alert("LOSER!! GAME OVER!");
   }
 
