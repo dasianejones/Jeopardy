@@ -353,16 +353,15 @@ $(".submitAnswer").click(function() {
   }
   questionsAnswered++; //Count the question as answered.
 
-  if (totalScore >= 5000 || questionsAnswered === 25) {
+  if (totalScore >= 5000 && questionsAnswered === 25) {
+    alert("Bonus Round!");
     eraseAnswers();
     bonusQuestion();
     return;
   }
 
-  if (totalScore >= 5000) {
-    alert("Winner!");
-  } else if (questionsAnswered === 26 && totalScore >= 5000) {
-    alert("WINNER!!!");
+  if (questionsAnswered === 26 && totalScore >= 5000) {
+    alert("WINNER!!! & YOU ROCKED THAT BONUS QUESTION!!");
   } else if (questionsAnswered === 26 && totalScore < 5000) {
     alert("LOSER!! GAME OVER!");
   }
@@ -370,6 +369,7 @@ $(".submitAnswer").click(function() {
   $(".playerScore").html(`Score: ${totalScore}`);
   eraseAnswers();
   hideModal();
+  pauseMusic();
 });
 
 eraseAnswers = () => {
