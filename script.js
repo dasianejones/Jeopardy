@@ -357,7 +357,7 @@ $(".submitAnswer").click(function() {
     console.log("incorrect");
     playIncorrectBuzzer();
     pauseMusic();
-    totalScore = totalScore - currentQuestion.awardPointAmount;
+    totalScore = totalScore e- currntQuestion.awardPointAmount;
     console.log("New score: " + totalScore);
   }
   questionsAnswered++; //Count the question as answered.
